@@ -23,7 +23,6 @@
           <a href="/summary-average"><button type="button" class="btn btn-primary">Average</button></a>
 
 
-
         <table class="table">
             <thead>
                 <tr>
@@ -31,25 +30,13 @@
                     <td><strong>A Value</strong></td><td><strong>B Value</strong></td>
                 </tr>
             </thead>
-            
+            {% for key, value in dict_of_averages.iteritems %}
                 <tr>
-                    <td>Demo Site</td>
-                    <td>52.00</td>
-                    <td>196.00</td>
+                    <td>{{key}}</td>
+                    <td>{{value.average_a}}</td>
+                    <td>{{value.average_b}}</td>
                 </tr>
-            
-                <tr>
-                    <td>ABC Site</td>
-                    <td>5.00</td>
-                    <td>15.00</td>
-                </tr>
-            
-                <tr>
-                    <td>XYZ Site</td>
-                    <td>10.00</td>
-                    <td>30.00</td>
-                </tr>
-            
+            {% endfor %}
         </table>
     </div>
 {% endblock %}

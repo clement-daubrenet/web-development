@@ -18,7 +18,7 @@ from django.conf.urls import url
 from websites_monitoring.views import HomePageView, SitesView, SummaryView
 
 urlpatterns = [
-    url(r'^$', SitesView.as_view(), name='sites'),
-    url(r'^sites', SitesView.as_view(), name='sites'),
-    url(r'^summary', SummaryView.as_view(), name='summary')
+    url(r'^$', SitesView, name='sites'),
+    url(r'^sites', SitesView, name='sites'),
+    url(r'^summary', SummaryView, name='summary')
 ]
