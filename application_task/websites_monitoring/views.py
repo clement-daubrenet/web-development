@@ -68,5 +68,4 @@ def DynamicSiteView(request, site_id):
     for report in summarylist: 
         date_values_dictionnary[report.date] =  {"a" : report.value_a, "b" : report.value_b}
     template_name = 'websites_monitoring/specific_site.html'
-    print date_values_dictionnary
     return render(request, template_name, {"date_values_dictionnary" : date_values_dictionnary})
