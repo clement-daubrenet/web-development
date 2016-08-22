@@ -1,0 +1,62 @@
+[
+  {
+    "model": "websites_monitoring.values",
+    "pk": 1,
+    "fields": {
+      "site_id": 1,
+      "date": "2015-02-01",
+      "value_a": 12.00,
+      "value_b": 16.00
+    }
+  },
+  {
+    "model": "websites_monitoring.values",
+    "pk": 2,
+    "fields": {
+      "site_id": 1,
+      "date": "2015-02-03",
+      "value_a": 20.00,
+      "value_b": 100.0
+    }
+  },
+  {
+    "model": "websites_monitoring.values",
+    "pk": 3,
+    "fields": {
+      "site_id": 1,
+      "date": "2015-02-10",
+      "value_a": 20.00,
+      "value_b": 80.00
+    }
+  },
+  {
+    "model": "websites_monitoring.values",
+    "pk": 4,
+    "fields": {
+      "site_id": 2,
+      "date": "2015-02-03",
+      "value_a": 5.00,
+      "value_b": 15.00
+    }
+  },
+  {
+    "model": "websites_monitoring.values",
+    "pk": 5,
+    "fields": {
+      "site_id": 3,
+      "date": "2015-02-15",
+      "value_a": 5.00,
+      "value_b": 15.00
+    }
+  },
+    {
+    "model": "websites_monitoring.values",
+    "pk": 6,
+    "fields": {
+      "site_id": 3,
+      "date": "2015-02-28",
+      "value_a": 5.00,
+      "value_b": 15.00
+    }
+  }
+]

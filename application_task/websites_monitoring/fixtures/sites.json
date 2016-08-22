@@ -1,0 +1,23 @@
+[
+  {
+    "model": "websites_monitoring.sites",
+    "pk": 1,
+    "fields": {
+      "site_name": "Demo Site"
+    }
+  },
+  {
+    "model": "websites_monitoring.sites",
+    "pk": 2,
+    "fields": {
+      "site_name": "ABC Site"
+    }
+  },
+  {
+    "model": "websites_monitoring.sites",
+    "pk": 3,
+    "fields": {
+      "site_name": "XYZ Site"
+    }
+  }
+]
