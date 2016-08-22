@@ -15,10 +15,11 @@ Including another URLconf
 """
 # -*- coding: utf-8 -*-
 from django.conf.urls import url
-from websites_monitoring.views import HomePageView, SitesView, SummaryViewAverage, SummaryViewSum
+from websites_monitoring.views import HomePageView, DynamicSiteView, SitesView, SummaryViewAverage, SummaryViewSum
 
 urlpatterns = [
     url(r'^$', SitesView, name='sites'),
+    url(r'^sites/([0-9]{1})', DynamicSiteView, name='dynamic_site_view'),
     url(r'^sites', SitesView, name='sites'),
     url(r'^summary-average/', SummaryViewAverage, name='summary-average'),
     url(r'^summary', SummaryViewSum, name='summary')
