@@ -1,0 +1,42 @@
+{% extends 'websites_monitoring/bootstrap.html' %}
+
+{% block bootstrap3_content %}
+      <nav class="navbar navbar-default">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li role="presentation" >
+                        <a href="/sites">Sites</a>
+                </li>
+                <li class="active" role="presentation" >
+                        <a href="/summary">Summary</a>
+                </li>
+            </ul>
+          </div>
+      </nav>
+
+
+
+    <div class="container">
+        <h1>Summary</h1>
+
+          <a href="/summary"><button type="button" class="btn btn-primary active">Sum</button></a>
+          <a href="/summary-average"><button type="button" class="btn btn-primary">Average</button></a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <td><strong>Site</strong></td>
+                    <td><strong>A Value</strong></td><td><strong>B Value</strong></td>
+                </tr>
+            </thead>
+            {% for key, value in result_dict.iteritems %}
+                <tr>
+                    <td>{{key}}</td>
+                    <td>{{value.a}}</td>
+                    <td>{{value.b}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+{% endblock %}
