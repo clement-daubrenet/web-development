@@ -29,12 +29,14 @@
                     <td><strong>A Value</strong></td><td><strong>B Value</strong></td>
                 </tr>
             </thead>
-            {% for key, value in result_dict.iteritems %}
+            {% for site in result_sums%}
+                {% for key, value in site.iteritems %} 
                 <tr>
                     <td>{{key}}</td>
-                    <td>{{value.a}}</td>
-                    <td>{{value.b}}</td>
+                    <td>{{value.value_a__sum}}</td>
+                    <td>{{value.value_b__sum}}</td>
                 </tr>
+                {% endfor %}
             {% endfor %}
         </table>
     </div>
