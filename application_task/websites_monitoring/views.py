@@ -62,26 +62,11 @@ def SummaryViewSum(request):
         dict_of_sums[site.site_name] = {'a' : sum_a_values, 'b' : sum_b_values}
     return render(request, template_name,{"result_dict" : dict_of_sums})
 
-
-
-
-
-
-        
-
-
-
-# def index(request):
-
-#   dictionary_of_cities_forecast = {}
-#   dictionary_of_cities_temperature = {}
-#   citybaselist=weatherbase.City.objects.all()
-
-
-#   for wb in citybaselist:
-#       forecast_city = weatherbase.Forecast.objects.get(city_id=wb.city_id)
-#       temperature_city = weatherbase.Temperature.objects.get(city_id=wb.city_id)
-#       dictionary_of_cities_forecast[wb.city_name] = forecast_city.forecast_1
-#       dictionary_of_cities_temperature[wb.city_name] = temperature_city.average_temperature_1
-
-#   return render(request, 'index.html', {"dict_forecast" : dictionary_of_cities_forecast})
+def DynamicSiteView(request, site_id):
+    summarylist = monitoring.Values.objects.filter(site_id=site_id)
+    date_values_dictionnary = OrderedDict()
+    for report in summarylist: 
+        date_values_dictionnary[report.date] =  {"a" : report.value_a, "b" : report.value_b}
+    template_name = 'websites_monitoring/specific_site.html'
+    print date_values_dictionnary
+    return render(request, template_name, {"date_values_dictionnary" : date_values_dictionnary})
