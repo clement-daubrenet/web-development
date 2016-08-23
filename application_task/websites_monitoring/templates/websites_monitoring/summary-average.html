@@ -1,7 +1,7 @@
 {% extends 'websites_monitoring/bootstrap.html' %}
 
 {% block bootstrap3_content %}
-      <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li role="presentation" >
@@ -12,15 +12,12 @@
                 </li>
             </ul>
           </div>
-      </nav>
-
-
-
+    </nav>
     <div class="container">
         <h1>Summary</h1>
 
-          <a href="/summary"><button type="button" class="btn btn-primary active">Sum</button></a>
-          <a href="/summary-average"><button type="button" class="btn btn-primary">Average</button></a>
+          <a href="/summary"><button type="button" class="btn btn-primary">Sum</button></a>
+          <a href="/summary-average"><button type="button" class="btn btn-primary active">Average</button></a>
 
         <table class="table">
             <thead>
@@ -32,8 +29,8 @@
             {% for key, value in result_dict.iteritems %}
                 <tr>
                     <td>{{key}}</td>
-                    <td>{{value.a}}</td>
-                    <td>{{value.b}}</td>
+                    <td>{{value.value_a}}</td>
+                    <td>{{value.value_b}}</td>
                 </tr>
             {% endfor %}
         </table>

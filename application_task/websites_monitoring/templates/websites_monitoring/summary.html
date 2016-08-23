@@ -1,7 +1,7 @@
 {% extends 'websites_monitoring/bootstrap.html' %}
 
 {% block bootstrap3_content %}
-      <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li role="presentation" >
@@ -12,10 +12,7 @@
                 </li>
             </ul>
           </div>
-      </nav>
-
-
-
+    </nav>
     <div class="container">
         <h1>Summary</h1>
 
@@ -29,7 +26,7 @@
                     <td><strong>A Value</strong></td><td><strong>B Value</strong></td>
                 </tr>
             </thead>
-            {% for site in result_sums%}
+            {% for site in result_dict%}
                 {% for key, value in site.iteritems %} 
                 <tr>
                     <td>{{key}}</td>

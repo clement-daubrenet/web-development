@@ -21,6 +21,6 @@ urlpatterns = [
     url(r'^$', general_sites_view, name='home'),
     url(r'^sites/([0-9]{1})', particular_site_view, name='particular-site'),
     url(r'^sites', general_sites_view, name='general-sites'),
-    url(r'^summary-average/', summary_average_view, name='summary-average'),
+    url(r'^summary-average', summary_average_view, name='summary-average'),
     url(r'^summary', summary_sum_view, name='summary-sum')
 ]
