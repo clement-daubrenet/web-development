@@ -5,5 +5,4 @@ Web playground
 - all tests are in tests.py 
 - requirements.txt for the dependencies 
 - a bit of work left to make the front DRY
-- 
 
