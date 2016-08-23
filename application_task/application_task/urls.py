@@ -15,7 +15,8 @@ Including another URLconf
 """
 # -*- coding: utf-8 -*-
 from django.conf.urls import url
-from websites_monitoring.views import general_sites_view, particular_site_view, summary_average_view, summary_sum_view
+from websites_monitoring.views import general_sites_view, \
+    particular_site_view, summary_average_view, summary_sum_view
 
 urlpatterns = [
     url(r'^$', general_sites_view, name='home'),
