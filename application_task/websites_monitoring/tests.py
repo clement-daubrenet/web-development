@@ -19,16 +19,6 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response,
                                 "websites_monitoring/sites.html")
 
-    def test_particular_site(self):
-        """
-        Testing the particular website view
-        """
-        url = reverse("particular-site", args=[1])
-        response = self.client.get(url)
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response,
-                                "websites_monitoring/specific_site.html")
-
     def test_summary_average(self):
         """
         Testing the average summary view
