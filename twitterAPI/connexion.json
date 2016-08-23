@@ -1,0 +1,8 @@
+{
+   "consumer_key": "qc88bvbfmxomriDOMUlF6ymnr",
+   "consumer_secret": "IWd46B8VZz1B6SsWsC30R1HgUq2Socsze2FZvpz1aTaFZjY7oi",
+   "access_token": "1043451715-A6Ommdf3btPelAcdB9A4hhJSKyHp8AenYBKM5tt",
+   "access_secret": "z4RQ4rirEO8phfDdgdO23SanJQsBVMbgVwWfzsWXOVEo5",
+   "kafka_topic": "twitter-topic",
+   "kafka_server": "localhost:9092"
+}

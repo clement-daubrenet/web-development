@@ -1,0 +1,4 @@
+{ 
+  "kafka_topic": "topic-twitter",
+  "kafka_server": "localhost:9092"
+}
