@@ -22,13 +22,12 @@ def particular_site_view(request, site_id):
     This view is rendering the values for a given website. 
     e.g : {"2015-02-03": {"a": 20.00, "b": 100.00}, ...}
     """
+    template_name = 'websites_monitoring/specific_site.html'
     summarylist = monitoring.Values.objects.filter(site_id=site_id)
     date_values_dictionnary = OrderedDict()
     for report in summarylist: 
         date_values_dictionnary[report.date] =  {"a" : report.value_a, "b" : report.value_b}
-    template_name = 'websites_monitoring/specific_site.html'
     return render(request, template_name, {"date_values_dictionnary" : date_values_dictionnary})
-
 
 def summary_average_view(request):
     """
@@ -62,6 +61,7 @@ def summary_sum_view(request):
     n.b : This method is based on Django SQL layer to compute 
     the sums as asked in the task description.
     """
+    template_name = 'websites_monitoring/summary.html'
     sitesbaselist = monitoring.Sites.objects.all()
     sums = map(lambda site_id : {site_id.site_name : monitoring.Values.objects.filter(site_id=site_id).aggregate(Sum('value_a'), Sum('value_b'))}, monitoring.Sites.objects.all())    
     template_name = 'websites_monitoring/summary.html'
