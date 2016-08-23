@@ -13,12 +13,19 @@
           </div>
     </nav>
     <div class="container">
-      <ul class="list-group">
-        <h1>Sites</h1>
-         <ul class="list-group">
-         {% for key, value in dict_of_sites.iteritems %}
-           <li class="list-group-item"><a href="/sites/{{key}}">{{value}}</a></li>
-         {% endfor %}
-        </ul>
+        <h1>Site Details - {{site_name}}</h1>
+        <table class="table">
+            <thead>
+                <tr><td><strong>Date</strong></td>
+                <td><strong>A Value</strong></td><td><strong>B Value</strong></td></tr>
+            </thead>
+            {% for key, value in date_values_dictionnary.iteritems %}
+                <tr>
+                    <td>{{key}}</td>
+                    <td>{{value.a}}</td>
+                    <td>{{value.b}}</td>
+                </tr>
+            {% endfor %}
+        </table>
     </div>
 {% endblock %}
