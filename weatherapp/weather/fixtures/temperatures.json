@@ -1,0 +1,534 @@
+[
+  {
+    "model": "weather.temperature",
+    "pk": 1,
+    "fields": {
+      "city": "2643743",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 2,
+    "fields": {
+      "city": "2988507",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 3,
+    "fields": {
+      "city": "292968",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 4,
+    "fields": {
+      "city": "2759794",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 5,
+    "fields": {
+      "city": "323786",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 6,
+    "fields": {
+      "city": "8223990",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+    {
+    "model": "weather.temperature",
+    "pk": 7,
+    "fields": {
+      "city": "792680",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+   {
+    "model": "weather.temperature",
+    "pk": 8,
+    "fields": {
+      "city": "2950159",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature.city",
+    "pk": 9,
+    "fields": {
+      "city": "2661552",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+   {
+    "model": "weather.temperature",
+    "pk": 10,
+    "fields": {
+      "city": "276781",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 11,
+    "fields": {
+      "city": "3060972",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 12,
+    "fields": {
+      "city": "2800865",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 13,
+    "fields": {
+      "city": "676742",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+    {
+    "model": "weather.temperature",
+    "pk": 14,
+    "fields": {
+      "city": "3054643",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 15,
+    "fields": {
+      "city": "7922173",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+   {
+    "model": "weather.temperature",
+    "pk": 16,
+    "fields": {
+      "city": "5344157",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 17,
+    "fields": {
+      "city": "2747373",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 18,
+    "fields": {
+      "city": "658225",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+   {
+    "model": "weather.temperature",
+    "pk": 19,
+    "fields": {
+      "city": "703448",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 20,
+    "fields": {
+      "city": "6458923",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 21,
+    "fields": {
+      "city": "3196359",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 22,
+    "fields": {
+      "city": "2960316",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 23,
+    "fields": {
+      "city": "3117735",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 24,
+    "fields": {
+      "city": "2993458",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+   {
+    "model": "weather.temperature",
+    "pk": 25,
+    "fields": {
+      "city": "3441575",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+   {
+    "model": "weather.temperature",
+    "pk": 26,
+    "fields": {
+      "city": "524901",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 27,
+    "fields": {
+      "city": "3143244",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 28,
+    "fields": {
+      "city": "3067696",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 29,
+    "fields": {
+      "city": "3413829",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 30,
+    "fields": {
+      "city": "456172",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 31,
+    "fields": {
+      "city": "4219762",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+
+  {
+    "model": "weather.temperature",
+    "pk": 32,
+    "fields": {
+      "city": "727011",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+   {
+    "model": "weather.temperature",
+    "pk": 33,
+    "fields": {
+      "city": "2673730",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+
+  {
+    "model": "weather.temperature",
+    "pk": 34,
+    "fields": {
+      "city": "588409",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+   {
+    "model": "weather.temperature",
+    "pk": 35,
+    "fields": {
+      "city": "756135",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 36,
+    "fields": {
+      "city": "6691831",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+  {
+    "model": "weather.temperature",
+    "pk": 37,
+    "fields": {
+      "city": "2969284",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+  {
+    "model": "weather.temperature",
+    "pk": 38,
+    "fields": {
+      "city": "593116",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  },
+
+
+  {
+    "model": "weather.temperature",
+    "pk": 39,
+    "fields": {
+      "city": "3186886",
+      "average_temperature_1": "0",
+      "average_temperature_2": "0",
+      "average_temperature_3": "0",
+      "average_temperature_4": "0",
+      "average_temperature_5": "0",
+      "average_temperature_6": "0"
+    }
+  }
+
+
+]

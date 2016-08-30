@@ -1,0 +1,24 @@
+{% extends 'websites_monitoring/base.html' %}
+{% block bootstrap3_content %}
+    <nav class="navbar navbar-default">
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active" role="presentation" >
+                        <a href="/sites">Sites</a>
+                </li>
+                <li role="presentation" >
+                        <a href="/summary">Summary</a>
+                </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="container">
+      <ul class="list-group">
+        <h1>Sites</h1>
+         <ul class="list-group">
+         {% for key, value in dict_of_sites.iteritems %}
+           <li class="list-group-item"><a href="/sites/{{key}}">{{value}}</a></li>
+         {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,338 @@
+[
+  {
+    "model": "weather.city",
+    "pk": 1,
+    "fields": {
+      "city_id": "2643743",
+      "city_name": "London"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 2,
+    "fields": {
+      "city_id": "2988507",
+      "city_name": "Paris"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 3,
+    "fields": {
+      "city_id": "292968",
+      "city_name": "Abu Dhabi"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 4,
+    "fields": {
+      "city_id": "2759794",
+      "city_name": "Amsterdam"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 5,
+    "fields": {
+      "city_id": "323786",
+      "city_name": "Ankara"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 6,
+    "fields": {
+      "city_id": "8223990",
+      "city_name": "Kolonaki"
+    }
+  },
+    {
+    "model": "weather.city",
+    "pk": 7,
+    "fields": {
+      "city_id": "792680",
+      "city_name": "Belgrade"
+    }
+  },
+   {
+    "model": "weather.city",
+    "pk": 8,
+    "fields": {
+      "city_id": "2950159",
+      "city_name": "Berlin"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 9,
+    "fields": {
+      "city_id": "2661552",
+      "city_name": "Bern"
+    }
+  },
+
+   {
+    "model": "weather.city",
+    "pk": 10,
+    "fields": {
+      "city_id": "276781",
+      "city_name": "Beirut"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 11,
+    "fields": {
+      "city_id": "3060972",
+      "city_name": "Bratislava"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 12,
+    "fields": {
+      "city_id": "2800865",
+      "city_name": "Brussel"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 13,
+    "fields": {
+      "city_id": "676742",
+      "city_name": "Grefoaicele"
+    }
+  },
+    {
+    "model": "weather.city",
+    "pk": 14,
+    "fields": {
+      "city_id": "3054643",
+      "city_name": "Budapest"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 15,
+    "fields": {
+      "city_id": "7922173",
+      "city_name": "Al ‘Atabah"
+    }
+  },
+   {
+    "model": "weather.city",
+    "pk": 16,
+    "fields": {
+      "city_id": "5344157",
+      "city_name": "Dublin"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 17,
+    "fields": {
+      "city_id": "2747373",
+      "city_name": "Den Haag"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 18,
+    "fields": {
+      "city_id": "658225",
+      "city_name": "Helsinki"
+    }
+  },
+   {
+    "model": "weather.city",
+    "pk": 19,
+    "fields": {
+      "city_id": "703448",
+      "city_name": "Kiev"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 20,
+    "fields": {
+      "city_id": "6458923",
+      "city_name": "Lisbon"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 21,
+    "fields": {
+      "city_id": "3196359",
+      "city_name": "Ljubljana"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 22,
+    "fields": {
+      "city_id": "2960316",
+      "city_name": "Luxembourg"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 23,
+    "fields": {
+      "city_id": "3117735",
+      "city_name": "Madrid"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 24,
+    "fields": {
+      "city_id": "2993458",
+      "city_name": "Monaco"
+    }
+  },
+
+   {
+    "model": "weather.city",
+    "pk": 25,
+    "fields": {
+      "city_id": "3441575",
+      "city_name": "Montevideo"
+    }
+  },
+
+   {
+    "model": "weather.city",
+    "pk": 26,
+    "fields": {
+      "city_id": "524901",
+      "city_name": "Moscow"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 27,
+    "fields": {
+      "city_id": "3143244",
+      "city_name": "Oslo"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 28,
+    "fields": {
+      "city_id": "3067696",
+      "city_name": "Prague"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 29,
+    "fields": {
+      "city_id": "3413829",
+      "city_name": "Reykjavik"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 30,
+    "fields": {
+      "city_id": "456172",
+      "city_name": "Riga"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 31,
+    "fields": {
+      "city_id": "4219762",
+      "city_name": "Rome"
+    }
+  },
+
+
+  {
+    "model": "weather.city",
+    "pk": 32,
+    "fields": {
+      "city_id": "727011",
+      "city_name": "Sofia"
+    }
+  },
+
+   {
+    "model": "weather.city",
+    "pk": 33,
+    "fields": {
+      "city_id": "2673730",
+      "city_name": "Stockholm"
+    }
+  },
+
+
+  {
+    "model": "weather.city",
+    "pk": 34,
+    "fields": {
+      "city_id": "588409",
+      "city_name": "Tallinn"
+    }
+  },
+
+   {
+    "model": "weather.city",
+    "pk": 35,
+    "fields": {
+      "city_id": "756135",
+      "city_name": "Warsaw"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 36,
+    "fields": {
+      "city_id": "6691831",
+      "city_name": "Vatican"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 37,
+    "fields": {
+      "city_id": "2969284",
+      "city_name": "Vienne"
+    }
+  },
+
+  {
+    "model": "weather.city",
+    "pk": 38,
+    "fields": {
+      "city_id": "593116",
+      "city_name": "Vilnius"
+    }
+  },
+
+
+  {
+    "model": "weather.city",
+    "pk": 39,
+    "fields": {
+      "city_id": "3186886",
+      "city_name": "Zagreb"
+    }
+  }
+
+
+]
