@@ -11,6 +11,7 @@ from celery.decorators import periodic_task
 
 app = Celery('celeryapp')
 app.config_from_object('celeryconfig')
+db = redis.StrictRedis('locahost')
 
 # Request to openweather API.
 # lanch a beat worker : celery -A celeryapp worker --loglevel=info -B
