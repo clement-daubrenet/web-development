@@ -1,0 +1,4 @@
+- database sqlalchemy, models
+- improve front, bootstrap that ;-)
+- unitest every single function
+- Virtualenv, Travis, etc.
